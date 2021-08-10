@@ -8,6 +8,29 @@
     display: grid;
     
   }
+  .h{
+    font-size: 2rem;
+    
+    width: 80%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 9rem;
+    color: lightcoral;
+    font-size: 1.5rem;
+    font-style: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .form-pagination {
+    margin: 100px auto;
+    width: 700px;
+    background-color: darkgrey;
+    background: linear-gradient(90deg, rgb(90, 132, 250) 0%, rgb(17, 25, 48) 100%);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 400px;
+    display: grid;
+  }
   .formview{
     display: flex;
   justify-content: space-between;

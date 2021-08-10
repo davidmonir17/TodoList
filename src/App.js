@@ -11,6 +11,7 @@ import {BrowserRouter as Router} from'react-router-dom';
 import Form from './components/form';
 import DetailTodo from './components/detailesTodo';
 import FormUp from './components/formUp';
+import CompletedPagination from './components/completedPagination';
 
 
 const client = new ApolloClient({
@@ -34,6 +35,7 @@ function App() {
           <Route exact path='/addtodo'  component={Form} />
           <Route exact path='/details'  component={DetailTodo} />
           <Route exact path='/update'  component={FormUp} />
+          <Route exact path='/paginat'  component={CompletedPagination} />
           </Switch>
           
         {/* <TODO /> */}

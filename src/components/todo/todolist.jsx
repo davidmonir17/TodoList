@@ -25,7 +25,8 @@ const TODO = props=>{
             <CompleteTask {...props}/>
         )
         }
-        <button className='todo-button ' onClick={ ()=>{history.push('/addtodo')}}>Add</button> 
+        <button className='todo-button ' onClick={ ()=>{history.push('/addtodo')}}>Add</button>
+        <button className='todo-button ' onClick={ ()=>{history.push('/paginat')}}>Completed Task Paginated</button> 
         </div>
         )
     
